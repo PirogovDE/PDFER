@@ -2,7 +2,7 @@
     "name": "user/pdf-script",
     "autoload": {
         "psr-4": {
-            "src\\": "/"
+            "app\\": ".//"
         }
     },
     "authors": [

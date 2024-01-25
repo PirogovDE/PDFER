@@ -18,7 +18,7 @@ class PDFer
     {
         $files = scandir($path);
         foreach ($files as $file) {
-            if ($file === '.' || $file === '..') {
+            if ($file === '.' || $file === '..' || $file === '.git' || $file === '.gitignore') {
                 continue;
             }
             if (is_dir($path . '/' . $file)) {

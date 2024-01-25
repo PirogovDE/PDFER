@@ -1,0 +1,17 @@
+{
+    "name": "user/pdf-script",
+    "autoload": {
+        "psr-4": {
+            "src\\": "/"
+        }
+    },
+    "authors": [
+        {
+            "name": "PirogovDE",
+            "email": "d.pirogov@indicator-lab.ru"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^2.0"
+    }
+}

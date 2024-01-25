@@ -14,6 +14,7 @@ class PDFer
         $this->dompdf = new Dompdf();
     }
 
+    //TODO: make each file content engulfed iside html page, change font to Dejavu Sans
     public function getContentRecursively(string $path): bool
     {
         $files = scandir($path);

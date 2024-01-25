@@ -10,7 +10,7 @@ $pdfer = new PDFer();
 
 $pdfer->getContentRecursively($defaultPath);
 
-$pdfer->dompdf->loadHtml('<pre>' . $pdfer->implodeContentWithHtml("<br>"));
+$pdfer->dompdf->loadHtml('<pre style="font-family: DejaVu Sans">' . $pdfer->implodeContentWithHtml("<br>"));
 //                                  width height
 $pdfer->dompdf->setPaper(array(0, 0, 1000, 1400));
 $pdfer->dompdf->render();
